@@ -62,6 +62,107 @@ function get_components(): array
             'description' => 'Label + text input + helper text, with error state variant.',
             'file'        => 'components/forms/input_group.php',
         ],
+        [
+            'slug'        => 'form-textarea',
+            'name'        => 'Textarea',
+            'category'    => 'Forms',
+            'description' => 'Resizable textarea with character counter and helper text.',
+            'file'        => 'components/forms/textarea.php',
+        ],
+        [
+            'slug'        => 'form-toggle',
+            'name'        => 'Toggle Switch',
+            'category'    => 'Forms',
+            'description' => 'On/off toggle with label, description, and disabled state.',
+            'file'        => 'components/forms/toggle.php',
+        ],
+        [
+            'slug'        => 'form-select',
+            'name'        => 'Select',
+            'category'    => 'Forms',
+            'description' => 'Styled native select with a custom SVG chevron.',
+            'file'        => 'components/forms/select.php',
+        ],
+
+        // ── Buttons (extended) ───────────────────────────────────────────────
+        [
+            'slug'        => 'button-icon',
+            'name'        => 'Icon Button',
+            'category'    => 'Buttons',
+            'description' => 'Square and round icon-only buttons with SVG icons.',
+            'file'        => 'components/buttons/icon_button.php',
+        ],
+        [
+            'slug'        => 'button-loading',
+            'name'        => 'Loading Button',
+            'category'    => 'Buttons',
+            'description' => 'Button with an animated spinner for async actions.',
+            'file'        => 'components/buttons/loading.php',
+        ],
+
+        // ── Cards (extended) ─────────────────────────────────────────────────
+        [
+            'slug'        => 'card-profile',
+            'name'        => 'Profile Card',
+            'category'    => 'Cards',
+            'description' => 'User profile card with avatar, bio, and stats row.',
+            'file'        => 'components/cards/profile.php',
+        ],
+        [
+            'slug'        => 'card-stat',
+            'name'        => 'Stat Card',
+            'category'    => 'Cards',
+            'description' => '2×2 grid of metric cards with SVG icons and values.',
+            'file'        => 'components/cards/stat.php',
+        ],
+
+        // ── Media ────────────────────────────────────────────────────────────
+        [
+            'slug'        => 'media-avatar',
+            'name'        => 'Avatar',
+            'category'    => 'Media',
+            'description' => 'Avatar in five sizes — icon, initials, and online indicator variants.',
+            'file'        => 'components/media/avatar.php',
+        ],
+        [
+            'slug'        => 'media-image-figure',
+            'name'        => 'Image Figure',
+            'category'    => 'Media',
+            'description' => 'Figure + figcaption with a hover overlay caption variant.',
+            'file'        => 'components/media/image_figure.php',
+        ],
+
+        // ── Navigation ───────────────────────────────────────────────────────
+        [
+            'slug'        => 'nav-breadcrumb',
+            'name'        => 'Breadcrumb',
+            'category'    => 'Navigation',
+            'description' => 'Accessible breadcrumb trail with SVG chevron separators.',
+            'file'        => 'components/navigation/breadcrumb.php',
+        ],
+        [
+            'slug'        => 'nav-tabs',
+            'name'        => 'Tabs',
+            'category'    => 'Navigation',
+            'description' => 'Horizontal tab bar with active underline indicator.',
+            'file'        => 'components/navigation/tabs.php',
+        ],
+
+        // ── Data ─────────────────────────────────────────────────────────────
+        [
+            'slug'        => 'data-kbd',
+            'name'        => 'Keyboard Shortcut',
+            'category'    => 'Data',
+            'description' => 'Styled <kbd> elements for single keys and combo shortcuts.',
+            'file'        => 'components/data/kbd.php',
+        ],
+        [
+            'slug'        => 'data-sparkline',
+            'name'        => 'Sparkline',
+            'category'    => 'Data',
+            'description' => 'Inline SVG sparkline with gradient fill, rendered server-side in PHP.',
+            'file'        => 'components/data/sparkline.php',
+        ],
     ];
 }
 
