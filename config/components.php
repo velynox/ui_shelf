@@ -163,6 +163,172 @@ function get_components(): array
             'description' => 'Inline SVG sparkline with gradient fill, rendered server-side in PHP.',
             'file'        => 'components/data/sparkline.php',
         ],
+        [
+            'slug'        => 'data-progress',
+            'name'        => 'Progress Bar',
+            'category'    => 'Data',
+            'description' => 'Labeled skill/progress bars with per-bar accent colors.',
+            'file'        => 'components/data/progress.php',
+        ],
+        [
+            'slug'        => 'data-timeline',
+            'name'        => 'Timeline',
+            'category'    => 'Data',
+            'description' => 'Vertical timeline with done/pending states and colored spine dots.',
+            'file'        => 'components/data/timeline.php',
+        ],
+        [
+            'slug'        => 'data-code-block',
+            'name'        => 'Code Block',
+            'category'    => 'Data',
+            'description' => 'Styled code block with filename header bar.',
+            'file'        => 'components/data/code_block.php',
+        ],
+        [
+            'slug'        => 'data-table',
+            'name'        => 'Table',
+            'category'    => 'Data',
+            'description' => 'Striped data table with status badge cells and hover rows.',
+            'file'        => 'components/data/table.php',
+        ],
+        [
+            'slug'        => 'data-tooltip',
+            'name'        => 'Tooltip',
+            'category'    => 'Data',
+            'description' => 'Pure-CSS tooltips — top and right placement variants.',
+            'file'        => 'components/data/tooltip.php',
+        ],
+        [
+            'slug'        => 'data-divider',
+            'name'        => 'Divider',
+            'category'    => 'Data',
+            'description' => 'Plain, labeled, icon, and vertical divider variants.',
+            'file'        => 'components/data/divider.php',
+        ],
+
+        // ── Profile ──────────────────────────────────────────────────────────
+        [
+            'slug'        => 'profile-avatar-card',
+            'name'        => 'Avatar Card',
+            'category'    => 'Profile',
+            'description' => 'Framed avatar with glow ring, CRT scanline overlay, and live indicator.',
+            'file'        => 'components/profile/avatar_card.php',
+        ],
+        [
+            'slug'        => 'profile-tech-stack',
+            'name'        => 'Tech Stack',
+            'category'    => 'Profile',
+            'description' => 'Expert / proficient / familiar skill grid with color-coded cards.',
+            'file'        => 'components/profile/tech_stack.php',
+        ],
+
+        // ── Cards (extended) ─────────────────────────────────────────────────
+        [
+            'slug'        => 'card-repo',
+            'name'        => 'Repo Card',
+            'category'    => 'Cards',
+            'description' => 'GitHub-style repository card with language dot, stars, and forks.',
+            'file'        => 'components/cards/repo.php',
+        ],
+        [
+            'slug'        => 'card-terminal',
+            'name'        => 'Terminal Card',
+            'category'    => 'Cards',
+            'description' => 'Fake terminal window with traffic-light buttons and blinking cursor.',
+            'file'        => 'components/cards/terminal.php',
+        ],
+        [
+            'slug'        => 'card-pricing',
+            'name'        => 'Pricing Card',
+            'category'    => 'Cards',
+            'description' => 'Free and Pro pricing tiers with feature lists and a "Popular" badge.',
+            'file'        => 'components/cards/pricing.php',
+        ],
+        [
+            'slug'        => 'card-horizontal',
+            'name'        => 'Horizontal Card',
+            'category'    => 'Cards',
+            'description' => 'Compact horizontal list card with icon, title, subtitle, and meta.',
+            'file'        => 'components/cards/horizontal.php',
+        ],
+
+        // ── Badges (extended) ────────────────────────────────────────────────
+        [
+            'slug'        => 'badge-tag',
+            'name'        => 'Tag Pill',
+            'category'    => 'Badges',
+            'description' => 'Colorful tag pills with a Lucide tag SVG icon.',
+            'file'        => 'components/badges/tag.php',
+        ],
+        [
+            'slug'        => 'badge-version',
+            'name'        => 'Version Badge',
+            'category'    => 'Badges',
+            'description' => 'Stable, beta, and deprecated version badges.',
+            'file'        => 'components/badges/version.php',
+        ],
+
+        // ── Alerts (extended) ────────────────────────────────────────────────
+        [
+            'slug'        => 'alert-variants',
+            'name'        => 'Alert Variants',
+            'category'    => 'Alerts',
+            'description' => 'Success, info, and error alert variants in one component.',
+            'file'        => 'components/alerts/success.php',
+        ],
+
+        // ── Forms (extended) ─────────────────────────────────────────────────
+        [
+            'slug'        => 'form-checkbox',
+            'name'        => 'Checkbox Group',
+            'category'    => 'Forms',
+            'description' => 'Styled checkbox group with label and description per option.',
+            'file'        => 'components/forms/checkbox.php',
+        ],
+        [
+            'slug'        => 'form-radio',
+            'name'        => 'Radio Group',
+            'category'    => 'Forms',
+            'description' => 'Radio button group with label and sub-text per option.',
+            'file'        => 'components/forms/radio.php',
+        ],
+        [
+            'slug'        => 'form-search',
+            'name'        => 'Search Input',
+            'category'    => 'Forms',
+            'description' => 'Search field with leading icon and ⌘K shortcut hint variant.',
+            'file'        => 'components/forms/search.php',
+        ],
+        [
+            'slug'        => 'form-file-upload',
+            'name'        => 'File Upload',
+            'category'    => 'Forms',
+            'description' => 'Drag-and-drop file upload zone with SVG upload icon.',
+            'file'        => 'components/forms/file_upload.php',
+        ],
+
+        // ── Navigation (extended) ────────────────────────────────────────────
+        [
+            'slug'        => 'nav-sidebar',
+            'name'        => 'Sidebar Nav',
+            'category'    => 'Navigation',
+            'description' => 'Vertical sidebar with active state, SVG icons, and a sign-out row.',
+            'file'        => 'components/navigation/sidebar.php',
+        ],
+        [
+            'slug'        => 'nav-pagination',
+            'name'        => 'Pagination',
+            'category'    => 'Navigation',
+            'description' => 'PHP-rendered pagination with ellipsis and active page highlight.',
+            'file'        => 'components/navigation/pagination.php',
+        ],
+        [
+            'slug'        => 'nav-command-row',
+            'name'        => 'Command Row',
+            'category'    => 'Navigation',
+            'description' => 'Command palette rows — active and inactive states with SVG icons.',
+            'file'        => 'components/navigation/command_row.php',
+        ],
     ];
 }
 
