@@ -329,6 +329,235 @@ function get_components(): array
             'description' => 'Command palette rows — active and inactive states with SVG icons.',
             'file'        => 'components/navigation/command_row.php',
         ],
+        [
+            'slug'        => 'nav-stepper',
+            'name'        => 'Stepper',
+            'category'    => 'Navigation',
+            'description' => 'Multi-step progress indicator with done, active, and pending states.',
+            'file'        => 'components/navigation/stepper.php',
+        ],
+        [
+            'slug'        => 'nav-dropdown',
+            'name'        => 'Dropdown Menu',
+            'category'    => 'Navigation',
+            'description' => 'Context menu with icons, dividers, and a destructive action.',
+            'file'        => 'components/navigation/dropdown.php',
+        ],
+        [
+            'slug'        => 'nav-notif-bell',
+            'name'        => 'Notification Bell',
+            'category'    => 'Navigation',
+            'description' => 'Bell icon with count badge, no-badge, and pulsing dot variants.',
+            'file'        => 'components/navigation/notif_bell.php',
+        ],
+        [
+            'slug'        => 'nav-back-button',
+            'name'        => 'Back Button',
+            'category'    => 'Navigation',
+            'description' => 'Text link, button, and breadcrumb-style back navigation variants.',
+            'file'        => 'components/navigation/back_button.php',
+        ],
+
+        // ── Layout ───────────────────────────────────────────────────────────
+        [
+            'slug'        => 'layout-hero',
+            'name'        => 'Hero Section',
+            'category'    => 'Layout',
+            'description' => 'Page hero with eyebrow, heading, sub-text, CTA buttons, and meta row.',
+            'file'        => 'components/layout/hero.php',
+        ],
+        [
+            'slug'        => 'layout-empty-state',
+            'name'        => 'Empty State',
+            'category'    => 'Layout',
+            'description' => 'Centered empty state with SVG illustration and action button.',
+            'file'        => 'components/layout/empty_state.php',
+        ],
+        [
+            'slug'        => 'layout-split-panel',
+            'name'        => 'Split Panel',
+            'category'    => 'Layout',
+            'description' => 'Two-column split layout — input on the left, preview on the right.',
+            'file'        => 'components/layout/split_panel.php',
+        ],
+        [
+            'slug'        => 'layout-sticky-header',
+            'name'        => 'Sticky Header',
+            'category'    => 'Layout',
+            'description' => 'Frosted-glass sticky header with logo, nav links, and CTA.',
+            'file'        => 'components/layout/sticky_header.php',
+        ],
+        [
+            'slug'        => 'layout-footer',
+            'name'        => 'Footer',
+            'category'    => 'Layout',
+            'description' => 'Site footer with brand, link columns, and copyright row.',
+            'file'        => 'components/layout/footer.php',
+        ],
+
+        // ── Cards (extended) ─────────────────────────────────────────────────
+        [
+            'slug'        => 'card-notification',
+            'name'        => 'Notification Card',
+            'category'    => 'Cards',
+            'description' => 'Notification list with unread state, type icons, and timestamps.',
+            'file'        => 'components/cards/notification.php',
+        ],
+        [
+            'slug'        => 'card-activity-feed',
+            'name'        => 'Activity Feed',
+            'category'    => 'Cards',
+            'description' => 'Vertical activity timeline with actor, action, target, and time.',
+            'file'        => 'components/cards/activity_feed.php',
+        ],
+        [
+            'slug'        => 'card-feature',
+            'name'        => 'Feature Card',
+            'category'    => 'Cards',
+            'description' => '2x2 grid of feature cards with SVG icon, title, and description.',
+            'file'        => 'components/cards/feature.php',
+        ],
+        [
+            'slug'        => 'card-quote',
+            'name'        => 'Quote Card',
+            'category'    => 'Cards',
+            'description' => 'Blockquote card with SVG quote mark and author attribution.',
+            'file'        => 'components/cards/quote.php',
+        ],
+        [
+            'slug'        => 'card-user-row',
+            'name'        => 'User Row',
+            'category'    => 'Cards',
+            'description' => 'User list rows with initials avatar, online indicator, and role.',
+            'file'        => 'components/cards/user_row.php',
+        ],
+
+        // ── Data (extended) ──────────────────────────────────────────────────
+        [
+            'slug'        => 'data-donut',
+            'name'        => 'Donut Chart',
+            'category'    => 'Data',
+            'description' => 'Server-side SVG donut chart with legend and center label.',
+            'file'        => 'components/data/donut.php',
+        ],
+        [
+            'slug'        => 'data-bar-chart',
+            'name'        => 'Bar Chart',
+            'category'    => 'Data',
+            'description' => 'Server-side SVG bar chart with highlighted active bar.',
+            'file'        => 'components/data/bar_chart.php',
+        ],
+        [
+            'slug'        => 'data-stat-diff',
+            'name'        => 'Stat Diff',
+            'category'    => 'Data',
+            'description' => 'Metric cards with up/down trend arrows and percentage diff.',
+            'file'        => 'components/data/stat_diff.php',
+        ],
+        [
+            'slug'        => 'data-log-line',
+            'name'        => 'Log Lines',
+            'category'    => 'Data',
+            'description' => 'Monospace log viewer with INFO, WARN, and ERROR level coloring.',
+            'file'        => 'components/data/log_line.php',
+        ],
+        [
+            'slug'        => 'data-copy-field',
+            'name'        => 'Copy Field',
+            'category'    => 'Data',
+            'description' => 'Read-only input with copy-to-clipboard button and check feedback.',
+            'file'        => 'components/data/copy_field.php',
+        ],
+        [
+            'slug'        => 'data-accordion',
+            'name'        => 'Accordion',
+            'category'    => 'Data',
+            'description' => 'Native <details>/<summary> accordion with rotating chevron.',
+            'file'        => 'components/data/accordion.php',
+        ],
+
+        // ── Forms (extended) ─────────────────────────────────────────────────
+        [
+            'slug'        => 'form-pin-input',
+            'name'        => 'PIN Input',
+            'category'    => 'Forms',
+            'description' => '6-digit PIN input with auto-advance and backspace navigation.',
+            'file'        => 'components/forms/pin_input.php',
+        ],
+        [
+            'slug'        => 'form-range-slider',
+            'name'        => 'Range Slider',
+            'category'    => 'Forms',
+            'description' => 'Range slider with live value display and step variant.',
+            'file'        => 'components/forms/range_slider.php',
+        ],
+        [
+            'slug'        => 'form-color-swatch',
+            'name'        => 'Color Swatch',
+            'category'    => 'Forms',
+            'description' => 'Catppuccin palette color picker using radio inputs.',
+            'file'        => 'components/forms/color_swatch.php',
+        ],
+        [
+            'slug'        => 'form-date-field',
+            'name'        => 'Date Field',
+            'category'    => 'Forms',
+            'description' => 'Date and datetime-local inputs styled for dark mode.',
+            'file'        => 'components/forms/date_field.php',
+        ],
+
+        // ── Feedback ─────────────────────────────────────────────────────────
+        [
+            'slug'        => 'feedback-skeleton',
+            'name'        => 'Skeleton Loader',
+            'category'    => 'Feedback',
+            'description' => 'Animated skeleton placeholders for card and list layouts.',
+            'file'        => 'components/feedback/skeleton.php',
+        ],
+        [
+            'slug'        => 'feedback-spinner',
+            'name'        => 'Spinner',
+            'category'    => 'Feedback',
+            'description' => 'Loading spinner in xs, sm, md, and overlay variants.',
+            'file'        => 'components/feedback/spinner.php',
+        ],
+        [
+            'slug'        => 'feedback-toast',
+            'name'        => 'Toast',
+            'category'    => 'Feedback',
+            'description' => 'Stacked toast notifications — success, error, and info.',
+            'file'        => 'components/feedback/toast.php',
+        ],
+        [
+            'slug'        => 'feedback-modal',
+            'name'        => 'Modal Dialog',
+            'category'    => 'Feedback',
+            'description' => 'Modal with header, form body, and footer action buttons.',
+            'file'        => 'components/feedback/modal.php',
+        ],
+        [
+            'slug'        => 'feedback-confirm',
+            'name'        => 'Confirm Dialog',
+            'category'    => 'Feedback',
+            'description' => 'Destructive confirmation dialog with icon and cancel/delete actions.',
+            'file'        => 'components/feedback/confirm.php',
+        ],
+
+        // ── Media (extended) ─────────────────────────────────────────────────
+        [
+            'slug'        => 'media-video-placeholder',
+            'name'        => 'Video Placeholder',
+            'category'    => 'Media',
+            'description' => '16:9 video thumbnail with play button, duration badge, and caption.',
+            'file'        => 'components/media/video_placeholder.php',
+        ],
+        [
+            'slug'        => 'media-icon-showcase',
+            'name'        => 'Icon Showcase',
+            'category'    => 'Media',
+            'description' => 'Grid of Heroicons rendered as inline SVGs with hover accent.',
+            'file'        => 'components/media/icon_showcase.php',
+        ],
     ];
 }
 
