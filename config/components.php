@@ -558,6 +558,165 @@ function get_components(): array
             'description' => 'Grid of Heroicons rendered as inline SVGs with hover accent.',
             'file'        => 'components/media/icon_showcase.php',
         ],
+
+        // ── Cards (batch 3) ──────────────────────────────────────────────────
+        [
+            'slug'        => 'card-changelog',
+            'name'        => 'Changelog Entry',
+            'category'    => 'Cards',
+            'description' => 'Versioned changelog with spine timeline and feat/fix/chore labels.',
+            'file'        => 'components/cards/changelog.php',
+        ],
+        [
+            'slug'        => 'card-os-window',
+            'name'        => 'OS Window',
+            'category'    => 'Cards',
+            'description' => 'macOS-style editor window with traffic lights, tabs, and status bar.',
+            'file'        => 'components/cards/os_window.php',
+        ],
+        [
+            'slug'        => 'card-spotlight',
+            'name'        => 'Spotlight Card',
+            'category'    => 'Cards',
+            'description' => 'Gradient spotlight glow on hover with top accent line.',
+            'file'        => 'components/cards/spotlight.php',
+        ],
+        [
+            'slug'        => 'card-link-preview',
+            'name'        => 'Link Preview',
+            'category'    => 'Cards',
+            'description' => 'OG-style link preview card and compact inline link variant.',
+            'file'        => 'components/cards/link_preview.php',
+        ],
+
+        // ── Data (batch 3) ───────────────────────────────────────────────────
+        [
+            'slug'        => 'data-heatmap',
+            'name'        => 'Heatmap Calendar',
+            'category'    => 'Data',
+            'description' => 'SVG contribution heatmap — 26 weeks × 7 days with month labels.',
+            'file'        => 'components/data/heatmap.php',
+        ],
+        [
+            'slug'        => 'data-gauge',
+            'name'        => 'Gauge Meter',
+            'category'    => 'Data',
+            'description' => 'Server-side SVG semicircle gauge with needle and center label.',
+            'file'        => 'components/data/gauge.php',
+        ],
+        [
+            'slug'        => 'data-diff-viewer',
+            'name'        => 'Diff Viewer',
+            'category'    => 'Data',
+            'description' => 'Git-style unified diff with line numbers, +/- prefixes, and colors.',
+            'file'        => 'components/data/diff_viewer.php',
+        ],
+        [
+            'slug'        => 'data-tree-view',
+            'name'        => 'Tree View',
+            'category'    => 'Data',
+            'description' => 'Recursive PHP file tree with folder/file SVG icons and indentation.',
+            'file'        => 'components/data/tree_view.php',
+        ],
+        [
+            'slug'        => 'data-tag-cloud',
+            'name'        => 'Tag Cloud',
+            'category'    => 'Data',
+            'description' => 'Weighted tag cloud with per-tag Catppuccin accent colors.',
+            'file'        => 'components/data/tag_cloud.php',
+        ],
+
+        // ── Forms (batch 3) ──────────────────────────────────────────────────
+        [
+            'slug'        => 'form-multi-select',
+            'name'        => 'Multi-Select Tags',
+            'category'    => 'Forms',
+            'description' => 'Tag input with pre-selected chips, remove buttons, and suggestions.',
+            'file'        => 'components/forms/multi_select.php',
+        ],
+        [
+            'slug'        => 'form-segmented',
+            'name'        => 'Segmented Control',
+            'category'    => 'Forms',
+            'description' => 'Text and icon segmented controls for mutually exclusive options.',
+            'file'        => 'components/forms/segmented.php',
+        ],
+        [
+            'slug'        => 'form-star-rating',
+            'name'        => 'Star Rating',
+            'category'    => 'Forms',
+            'description' => 'Interactive star rating input and read-only display variant.',
+            'file'        => 'components/forms/star_rating.php',
+        ],
+
+        // ── Feedback (batch 3) ───────────────────────────────────────────────
+        [
+            'slug'        => 'feedback-inline-edit',
+            'name'        => 'Inline Edit',
+            'category'    => 'Feedback',
+            'description' => 'Click-to-edit pattern with view state, edit state, save, and cancel.',
+            'file'        => 'components/feedback/inline_edit.php',
+        ],
+        [
+            'slug'        => 'feedback-banner',
+            'name'        => 'Banner',
+            'category'    => 'Feedback',
+            'description' => 'Dismissible info and maintenance announcement banners.',
+            'file'        => 'components/feedback/banner.php',
+        ],
+        [
+            'slug'        => 'feedback-progress-banner',
+            'name'        => 'Progress Banner',
+            'category'    => 'Feedback',
+            'description' => 'Deploy progress card with step list, spinner, and progress bar.',
+            'file'        => 'components/feedback/progress_banner.php',
+        ],
+
+        // ── Layout (batch 3) ─────────────────────────────────────────────────
+        [
+            'slug'        => 'layout-bento',
+            'name'        => 'Bento Grid',
+            'category'    => 'Layout',
+            'description' => 'CSS grid bento layout with large, small, and wide cells.',
+            'file'        => 'components/layout/bento.php',
+        ],
+        [
+            'slug'        => 'layout-section-header',
+            'name'        => 'Section Header',
+            'category'    => 'Layout',
+            'description' => 'Simple and eyebrow+badge section header variants.',
+            'file'        => 'components/layout/section_header.php',
+        ],
+        [
+            'slug'        => 'layout-command-palette',
+            'name'        => 'Command Palette',
+            'category'    => 'Layout',
+            'description' => 'Full command palette modal with search, results, and keyboard hints.',
+            'file'        => 'components/layout/command_palette.php',
+        ],
+        [
+            'slug'        => 'layout-scroll-area',
+            'name'        => 'Scroll Area',
+            'category'    => 'Layout',
+            'description' => 'Vertical and horizontal constrained scroll containers.',
+            'file'        => 'components/layout/scroll_area.php',
+        ],
+
+        // ── Profile (batch 2) ────────────────────────────────────────────────
+        [
+            'slug'        => 'profile-social-links',
+            'name'        => 'Social Links',
+            'category'    => 'Profile',
+            'description' => 'Icon row and text row social link variants with SVG icons.',
+            'file'        => 'components/profile/social_links.php',
+        ],
+        [
+            'slug'        => 'profile-contribution-graph',
+            'name'        => 'Contribution Graph',
+            'category'    => 'Profile',
+            'description' => 'Compact 12-week SVG contribution heatmap widget.',
+            'file'        => 'components/profile/contribution_graph.php',
+        ],
     ];
 }
 
